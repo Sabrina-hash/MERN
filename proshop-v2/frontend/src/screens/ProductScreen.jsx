@@ -17,8 +17,7 @@ const ProductScreen = () => {
         fetchProduct();
 
     }, [productId]);
-
-  return <>
+    return <>
     <Link className="btn btn-light my-3" to="/">Go Back
     </Link>
     <Row>
